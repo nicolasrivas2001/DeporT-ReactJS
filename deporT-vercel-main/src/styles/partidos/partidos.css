@@ -1,0 +1,768 @@
+.contenedor-info-futbol {
+  background-image: url(../../assets/futbolA.png);
+  background-repeat: no-repeat;
+  background-position-x: -12%;
+  background-position-y: 50%;
+  margin-bottom: 90px;
+  padding-top: 100px;
+}
+
+.contenedor-info-futbol .ruta {
+  margin: 30px 20px 20px 120px;
+  font-size: 22px;
+}
+
+.contenedor-info-futbol .ruta span {
+  color: #a80606;
+}
+
+.contenedor-info-futbol .info-futbol {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px 70px 0px 70px;
+  margin-right: 40px;
+}
+
+.contenedor-info-futbol .info-futbol .titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: end;
+  width: 100%;
+}
+
+.contenedor-info-futbol .info-futbol .titulo h3 {
+  position: relative;
+  font-size: 30px;
+  display: inline;
+}
+
+.contenedor-info-futbol .info-futbol .titulo h3 span {
+  color: #a80606;
+}
+
+.contenedor-info-futbol .info-futbol .titulo p {
+  display: inline;
+}
+
+.contenedor-info-futbol .info-futbol .titulo .parrafo-principal {
+  position: relative;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.contenedor-info-futbol .info-futbol .titulo .partidos-disponibles {
+  color: #011354;
+  margin-top: 40px;
+}
+
+.contenedor-info-futbol .info-futbol .titulo .contenedor-fecha {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedor-info-futbol .info-futbol .titulo .contenedor-fecha .fecha {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #011354;
+  -webkit-box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.33);
+          box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.33);
+  border-radius: 10px;
+  color: white;
+  width: 20%;
+  height: 50px;
+  padding: 10px;
+  margin: 10px 0px 60px 0px;
+}
+
+.contenedor-info-futbol .info-futbol .contenedor-partidos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+.contenedor-info-futbol .info-futbol .contenedor-partidos .partidos {
+  overflow-y: scroll;
+  height: 800px;
+  background-color: rgba(1, 19, 84, 0.75);
+  -webkit-box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.25);
+          box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 50px;
+  width: 900px;
+}
+
+.contenedor-info-futbol .info-futbol .contenedor-partidos .partidos .partidos-liga {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contenedor-info-futbol .info-futbol .contenedor-partidos .partidos .partidos-liga .contenedor-liga {
+  width: 35%;
+  background-color: #f5f1f1;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 10px;
+}
+
+.contenedor-info-futbol .info-futbol .contenedor-partidos .partidos .partidos-liga .contenedor-liga .liga {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+
+.contenedor-info-futbol .info-futbol .contenedor-partidos .partidos .partidos-liga .separador-ligas {
+  border: 8px solid rgba(245, 241, 241, 0.5);
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.contenedor-info-futbol .info-futbol .contenedor-partidos .partidos .partidos-liga .partido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.contenedor-info-futbol .info-futbol .contenedor-partidos .partidos .partidos-liga .partido .teams {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #f5f1f1;
+  border-radius: 20px;
+  max-height: 170px;
+}
+
+.contenedor-info-futbol .info-futbol .contenedor-partidos .partidos .partidos-liga .partido .teams .team {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 20px;
+}
+
+.contenedor-info-futbol .info-futbol .contenedor-partidos .partidos .partidos-liga .partido .teams .team img {
+  max-width: 200px;
+  min-width: 100px;
+}
+
+.contenedor-info-futbol .info-futbol .contenedor-partidos .partidos .partidos-liga .partido .teams .team div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.contenedor-info-futbol .info-futbol .contenedor-partidos .partidos .partidos-liga .partido .teams .team div .name {
+  font-size: 19px;
+  margin: 0px;
+}
+
+.contenedor-info-futbol .info-futbol .contenedor-partidos .partidos .partidos-liga .partido .teams .team div .goals {
+  font-size: 54px;
+}
+
+.contenedor-info-futbol .info-futbol .contenedor-partidos .partidos .partidos-liga .partido .teams .contenedor-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+.contenedor-info-futbol .info-futbol .contenedor-partidos .partidos .partidos-liga .partido .teams .contenedor-time .time {
+  background-color: #011354;
+  width: 158px;
+  height: 66px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 10px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedor-info-futbol .info-futbol .contenedor-partidos .partidos .partidos-liga .partido .teams .contenedor-time .time p {
+  color: white;
+  margin: 0px;
+}
+
+.contenedor-info-futbol .info-futbol .contenedor-partidos .partidos .partidos-liga .partido .teams .contenedor-time .time .in-game {
+  color: #26bd26;
+  margin: 0px;
+}
+
+.contenedor-info-futbol .info-futbol .contenedor-partidos .partidos .partidos-liga .partido .teams .contenedor-time .time .entretiempo {
+  color: #198019;
+  margin: 0px;
+}
+
+.contenedor-info-futbol .info-futbol .contenedor-partidos .partidos .partidos-liga .partido .teams .contenedor-time .contenedor-separador {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 100%;
+}
+
+.contenedor-info-futbol .info-futbol .contenedor-partidos .partidos .partidos-liga .partido .teams .contenedor-time .contenedor-separador .separador {
+  background-color: #011354;
+  width: 7px;
+  height: 95px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  position: relative;
+  bottom: -10px;
+}
+
+.contenedor-info-futbol .info-futbol .contenedor-partidos .partidos div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.contenedor-info-futbol .info-futbol .contenedor-partidos .partidos div a {
+  text-decoration: none;
+}
+
+.contenedor-info-futbol .info-futbol .contenedor-partidos .partidos div a .boton-twitch {
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.contenedor-info-futbol .info-futbol .contenedor-partidos .partidos div a .boton-twitch .contenedor-logo-twitch {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  left: 30px;
+}
+
+.contenedor-info-futbol .info-futbol .contenedor-partidos .partidos div a .boton-twitch .contenedor-p-twitch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenedor-info-futbol .info-futbol .contenedor-partidos .partidos div a .boton-twitch .contenedor-p-twitch p {
+  font-size: 18px;
+  margin: 0px;
+}
+
+.contenedor-info-futbol .info-futbol .contenedor-partidos .partidos div a :hover {
+  border-radius: 10px;
+  background-color: #d60a0a;
+}
+
+.contenedor-info-futbol .info-futbol .partidos::-webkit-scrollbar {
+  margin-top: 10px;
+  width: 21px;
+  color: #d60a0a;
+}
+
+.contenedor-info-futbol .info-futbol .partidos::-webkit-scrollbar-track {
+  background: rgba(217, 217, 217, 0.45);
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.contenedor-info-futbol .info-futbol .partidos::-webkit-scrollbar-thumb {
+  background-color: #d60a0a;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.contenedor-no-partidos .no-partidos {
+  width: 100%;
+  background: #F5F1F1;
+  color: #011354;
+  border-radius: 10px;
+  font-size: 25px;
+  padding: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 50px;
+}
+
+.contenedor-no-partidos .no-partidos p {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.contenedor-no-partidos .no-partidos p span {
+  color: #a80606;
+}
+
+.contenedor-info-basquet {
+  background-image: url(../../assets/basquetA.png);
+  background-repeat: no-repeat;
+  background-position-x: 4%;
+  background-position-y: 50%;
+  margin-bottom: 90px;
+  padding-top: 100px;
+}
+
+.contenedor-info-basquet .ruta {
+  margin: 30px 20px 20px 120px;
+  font-size: 22px;
+}
+
+.contenedor-info-basquet .ruta span {
+  color: #a80606;
+}
+
+.contenedor-info-basquet .info-futbol {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px 70px 0px 70px;
+  margin-right: 40px;
+}
+
+.contenedor-info-basquet .info-futbol .titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: end;
+  width: 100%;
+}
+
+.contenedor-info-basquet .info-futbol .titulo h3 {
+  position: relative;
+  font-size: 30px;
+  display: inline;
+}
+
+.contenedor-info-basquet .info-futbol .titulo h3 span {
+  color: #a80606;
+}
+
+.contenedor-info-basquet .info-futbol .titulo p {
+  display: inline;
+}
+
+.contenedor-info-basquet .info-futbol .titulo .parrafo-principal {
+  position: relative;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.contenedor-info-basquet .info-futbol .titulo div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.contenedor-info-basquet .info-futbol .titulo div .partidos-disponibles {
+  width: 20%;
+  color: #011354;
+  margin-top: 40px;
+}
+
+.contenedor-info-basquet .info-futbol .titulo .contenedor-fecha {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedor-info-basquet .info-futbol .titulo .contenedor-fecha .fecha {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #011354;
+  -webkit-box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.33);
+          box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.33);
+  border-radius: 10px;
+  color: white;
+  width: 20%;
+  height: 50px;
+  padding: 10px;
+  margin: 10px 0px 60px 0px;
+}
+
+.contenedor-info-basquet .info-futbol .contenedor-partidos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+.contenedor-info-basquet .info-futbol .contenedor-partidos .partidos {
+  width: 900px;
+  overflow-y: scroll;
+  height: 800px;
+  background-color: rgba(1, 19, 84, 0.75);
+  -webkit-box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.25);
+          box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.contenedor-info-basquet .info-futbol .contenedor-partidos .partidos .contenedor-liga {
+  width: 35%;
+  background-color: #f5f1f1;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 10px;
+}
+
+.contenedor-info-basquet .info-futbol .contenedor-partidos .partidos .contenedor-liga .liga {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+
+.contenedor-info-basquet .info-futbol .contenedor-partidos .partidos .partido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.contenedor-info-basquet .info-futbol .contenedor-partidos .partidos .partido .teams {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #f5f1f1;
+  border-radius: 20px;
+  max-height: 170px;
+}
+
+.contenedor-info-basquet .info-futbol .contenedor-partidos .partidos .partido .teams .team {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 20px;
+}
+
+.contenedor-info-basquet .info-futbol .contenedor-partidos .partidos .partido .teams .team img {
+  max-width: 200px;
+  min-width: 100px;
+}
+
+.contenedor-info-basquet .info-futbol .contenedor-partidos .partidos .partido .teams .team div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.contenedor-info-basquet .info-futbol .contenedor-partidos .partidos .partido .teams .team div .name {
+  font-size: 19px;
+  margin: 0px;
+}
+
+.contenedor-info-basquet .info-futbol .contenedor-partidos .partidos .partido .teams .team div .goals {
+  font-size: 54px;
+}
+
+.contenedor-info-basquet .info-futbol .contenedor-partidos .partidos .partido .teams .contenedor-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+.contenedor-info-basquet .info-futbol .contenedor-partidos .partidos .partido .teams .contenedor-time .time {
+  background-color: #011354;
+  width: 158px;
+  height: 66px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 10px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedor-info-basquet .info-futbol .contenedor-partidos .partidos .partido .teams .contenedor-time .time p {
+  color: white;
+}
+
+.contenedor-info-basquet .info-futbol .contenedor-partidos .partidos .partido .teams .contenedor-time .time .finished {
+  color: #951313;
+}
+
+.contenedor-info-basquet .info-futbol .contenedor-partidos .partidos .partido .teams .contenedor-time .time .soon {
+  color: white;
+}
+
+.contenedor-info-basquet .info-futbol .contenedor-partidos .partidos .partido .teams .contenedor-time .time .in-game {
+  color: #26bd26;
+}
+
+.contenedor-info-basquet .info-futbol .contenedor-partidos .partidos .partido .teams .contenedor-time .contenedor-separador {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 100%;
+}
+
+.contenedor-info-basquet .info-futbol .contenedor-partidos .partidos .partido .teams .contenedor-time .contenedor-separador .separador {
+  background-color: #011354;
+  width: 7px;
+  height: 95px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  position: relative;
+  bottom: -10px;
+}
+
+.contenedor-info-basquet .info-futbol .contenedor-partidos .partidos div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.contenedor-info-basquet .info-futbol .contenedor-partidos .partidos div a {
+  text-decoration: none;
+}
+
+.contenedor-info-basquet .info-futbol .contenedor-partidos .partidos div a .boton-twitch {
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.contenedor-info-basquet .info-futbol .contenedor-partidos .partidos div a .boton-twitch .contenedor-logo-twitch {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  left: 30px;
+}
+
+.contenedor-info-basquet .info-futbol .contenedor-partidos .partidos div a .boton-twitch .contenedor-p-twitch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenedor-info-basquet .info-futbol .contenedor-partidos .partidos div a .boton-twitch .contenedor-p-twitch p {
+  font-size: 18px;
+  margin: 0px;
+}
+
+.contenedor-info-basquet .info-futbol .contenedor-partidos .partidos div a :hover {
+  border-radius: 10px;
+  background-color: #d60a0a;
+}
+
+.contenedor-info-basquet .info-futbol .partidos::-webkit-scrollbar {
+  margin-top: 10px;
+  width: 21px;
+  color: #d60a0a;
+}
+
+.contenedor-info-basquet .info-futbol .partidos::-webkit-scrollbar-track {
+  background: rgba(217, 217, 217, 0.45);
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.contenedor-info-basquet .info-futbol .partidos::-webkit-scrollbar-thumb {
+  background-color: #d60a0a;
+  border-radius: 20px;
+  padding: 10px;
+}
+/*# sourceMappingURL=partidos.css.map */

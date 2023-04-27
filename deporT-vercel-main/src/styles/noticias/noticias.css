@@ -1,0 +1,104 @@
+.contenedor-noticias-futbol {
+  margin-bottom: 70px;
+  padding-top: 100px;
+}
+
+.contenedor-noticias-futbol .ruta {
+  margin: 30px 20px 20px 120px;
+  font-size: 22px;
+}
+
+.contenedor-noticias-futbol .ruta span {
+  color: #a80606;
+}
+
+.contenedor-noticias-futbol .titulos {
+  margin: 40px 0px 40px 120px;
+}
+
+.contenedor-noticias-futbol .titulos h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.contenedor-noticias-futbol .titulos h3 span {
+  color: #a80606;
+}
+
+.contenedor-noticias-futbol .titulos .parrafo {
+  font-size: 22px;
+}
+
+.contenedor-noticias-futbol .titulos .parrafo span {
+  color: #a80606;
+}
+
+.contenedor-noticias-futbol .contenedor-noticias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenedor-noticias-futbol .contenedor-noticias .noticias {
+  width: 90%;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenedor-noticias-futbol .contenedor-noticias .noticias a {
+  width: 30%;
+  background-color: rgba(1, 19, 84, 0.8);
+  margin: 20px;
+  -webkit-box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.25);
+          box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.contenedor-noticias-futbol .contenedor-noticias .noticias a .noticia img {
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.contenedor-noticias-futbol .contenedor-noticias .noticias a .noticia .periodista-titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.contenedor-noticias-futbol .contenedor-noticias .noticias a .noticia .periodista-titulo img {
+  margin-top: 20px;
+  width: 30%;
+  border-radius: 0px 10px;
+}
+
+.contenedor-noticias-futbol .contenedor-noticias .noticias a .noticia .periodista-titulo p {
+  width: 70%;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 20px;
+}
+
+.contenedor-noticias-futbol .contenedor-noticias .noticias :hover {
+  border-radius: 10px;
+  background-color: #2851e0;
+}
+/*# sourceMappingURL=noticias.css.map */

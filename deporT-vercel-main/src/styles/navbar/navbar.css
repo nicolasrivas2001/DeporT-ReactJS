@@ -1,0 +1,138 @@
+header {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  background: #0A0202;
+  color: white;
+  position: fixed;
+  top: 0%;
+  z-index: 2;
+}
+
+header a {
+  width: 20%;
+}
+
+header a .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-left: 32px;
+  width: 100%;
+}
+
+header a .logo img {
+  width: 60%;
+  max-width: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header nav ul a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 14px;
+  margin-left: 14px;
+  border-bottom: 4px solid #D60A0A;
+  border-radius: 3px;
+  width: 100%;
+}
+
+header nav ul a li {
+  width: 100%;
+  font-family: Raleway;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+header nav ul li:hover {
+  color: #D60A0A;
+  cursor: pointer;
+}
+
+header nav ul li:active {
+  color: #D60A0A;
+}
+
+header div {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+header div input {
+  background-image: url(../../assets/search.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  width: 60px;
+  height: 32px;
+  border-radius: 200px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+header div :focus {
+  background-image: none;
+  width: 90px;
+}
+/*# sourceMappingURL=navbar.css.map */

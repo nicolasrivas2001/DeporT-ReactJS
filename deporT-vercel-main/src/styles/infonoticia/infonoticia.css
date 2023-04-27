@@ -1,0 +1,102 @@
+.contenedor-noticia-completa {
+  background-image: url(../../assets/drawFutbol.png);
+  background-repeat: no-repeat;
+  background-position-x: 110%;
+  background-position-y: 2%;
+}
+
+.contenedor-noticia-completa .titulo {
+  background-color: #011354;
+  color: white;
+  font-size: 54px;
+  height: 291px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.contenedor-noticia-completa .titulo span {
+  color: #d60a0a;
+}
+
+.contenedor-noticia-completa .ruta {
+  margin: 30px 20px 20px 120px;
+  font-size: 22px;
+}
+
+.contenedor-noticia-completa .ruta span {
+  color: #a80606;
+}
+
+.contenedor-noticia-completa .periodista {
+  background-color: #a80606;
+  width: 600px;
+  margin-left: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-radius: 10px;
+}
+
+.contenedor-noticia-completa .periodista img {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.contenedor-noticia-completa .periodista div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.contenedor-noticia-completa .periodista div p {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.contenedor-noticia-completa a {
+  width: 30%;
+  background-color: rgba(1, 19, 84, 0.8);
+  margin: 20px;
+  -webkit-box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.25);
+          box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.contenedor-noticia-completa a .noticia img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.contenedor-noticia-completa a .noticia .periodista-titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.contenedor-noticia-completa a .noticia .periodista-titulo img {
+  margin-top: 20px;
+  width: 30%;
+  border-radius: 0px 10px;
+}
+
+.contenedor-noticia-completa a .noticia .periodista-titulo p {
+  width: 70%;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 20px;
+}
+/*# sourceMappingURL=infonoticia.css.map */

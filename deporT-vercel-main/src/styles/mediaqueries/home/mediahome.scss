@@ -1,0 +1,99 @@
+@media screen and (max-width: 1350px) {
+    .home{
+        .contenedor-resultados-home{
+            padding:40px 40px;
+
+            .resultados-home{
+                display: flex;
+                justify-content: center;
+                
+                .resultados{
+                    display: flex;
+                    justify-content: center;
+                    .partido{
+                        width: 20%;
+                    }
+                }
+                .contenedor-btn-partido-anterior{
+                    position: relative;
+                    left: 90px;
+                }
+                .contenedor-btn-partido-siguiente{
+                    position: relative;
+                    left: -90px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .home{
+        .fondo-noticias-destacadas{
+            .contenedor-noticias-destacadas{
+                .noticias{
+                    .noticias-destacadas{
+                        a{
+                            .noticia{
+                                .periodista-titulo{
+                                    p{
+                                        font-size: 15px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .home{
+        .fondo-noticias-destacadas{
+            .contenedor-noticias-destacadas{
+                .noticias{
+                    .noticias-destacadas{
+                        a{
+                            .noticia{
+                                .periodista-titulo{
+                                    p{
+                                        font-size: 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .home{
+        .contenedor-resultados-home{
+            .resultados-home{
+                .contenedor-btn-partidos{
+                    .btn-partido-anterior{
+                        width: 60px;
+                    }
+                    .btn-partido-siguiente{
+                        width: 60px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .home{
+        .contenedor-resultados-home{
+            padding-bottom: 100px;
+        }
+    }
+}
+
+

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EAChC,AAKoB,kBALF,CACd,uBAAuB,CACnB,YAAY,CACR,qBAAqB,CACjB,GAAG,CACC,SAAS,CAAA;IACL,MAAM,EAAE,SAAS;GACpB;;;AAQzB,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EAChC,AAKoB,kBALF,CACd,uBAAuB,CACnB,YAAY,CACR,qBAAqB,CACjB,GAAG,CACC,SAAS,CAAA;IACL,MAAM,EAAE,QAAQ;GACnB",
+    "sources": [
+        "mediafooter.scss"
+    ],
+    "names": [],
+    "file": "mediafooter.css"
+}

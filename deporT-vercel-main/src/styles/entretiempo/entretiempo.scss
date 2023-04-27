@@ -1,0 +1,67 @@
+.contenedor-entretiepo{
+    display: flex;
+    justify-content: center;
+    background-image: url(../../assets/apiError.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 130%;
+    background-size: 500px;
+    padding:150px;
+    .entretiempo{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        h3{
+            font-size: 80px;
+            color: rgba(1, 19, 84, 1);
+            margin-bottom: 30px;
+        }
+        .parrafo{
+            font-size: 40px;
+            color: rgba(1, 19, 84, 1);
+            margin-bottom: 120px;
+            span{
+                color: rgba(168, 6, 6, 1);
+            }
+        }
+        div{
+            a{
+                text-decoration: none;
+                background-color: rgba(168, 6, 6, 1);
+                width: 400px;
+                height: 60px;
+                box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.25);
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                left: 300px;
+                p{
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+
+//MEDIAQUERIES
+
+@media screen and (max-width: 1500px) {
+    .contenedor-entretiempo{
+        width: 100%;
+        padding: 150px 50px
+    }
+}
+
+@media screen and (max-width: 1282px) {
+    .contenedor-entretiempo{
+        width: 100%;
+        padding: 150px 50px;
+        .entretiempo{
+            width: 100%;
+        }
+    }
+}

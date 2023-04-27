@@ -1,0 +1,31 @@
+@media screen and (max-width: 1500px) {
+    .contenedor-footer{
+        .contenedor-integrantes{
+            .integrantes{
+                .imagenes-integrantes{
+                    div{
+                        .imagenes{
+                            margin: 20px 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .contenedor-footer{
+        .contenedor-integrantes{
+            .integrantes{
+                .imagenes-integrantes{
+                    div{
+                        .imagenes{
+                            margin: 20px 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

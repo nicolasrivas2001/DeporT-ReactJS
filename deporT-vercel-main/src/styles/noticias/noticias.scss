@@ -1,0 +1,89 @@
+.contenedor-noticias-futbol{
+    margin-bottom: 70px;
+    padding-top: 100px;
+    .ruta{
+        margin: 30px 20px 20px 120px;
+        font-size: 22px;
+        span{
+            color: rgba(168, 6, 6, 1);
+        }
+    }
+    .titulos{
+        margin: 40px 0px 40px 120px;
+        h3{
+            font-size: 30px;
+            margin-bottom: 20px;
+            span{
+                color: rgba(168, 6, 6, 1);
+            }
+        }
+        .parrafo{
+            font-size: 22px;
+            span{
+                color: rgba(168, 6, 6, 1) ;
+            }
+        }
+    }
+    .contenedor-noticias{
+        display: flex;
+        justify-content: center;
+        .noticias{
+            width: 90%;
+            margin-top: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            a{
+                width: 30%;
+                background-color: rgba(1, 19, 84, 0.8);
+                margin: 20px;
+                box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.25);
+                border-radius: 10px;
+                transition: 0.5s;
+                .noticia{    
+                    img{
+                        width: 100%;
+                        border-top-right-radius: 10px;
+                        border-top-left-radius: 10px;
+                        transition: 0.5s;
+                    }
+                    .periodista-titulo{
+                        display: flex;
+                        flex-direction: row;
+                        img{
+                            margin-top: 20px;
+                            width: 30%;
+                            border-radius: 0px 10px;
+                        }
+                        p{
+                            width: 70%;
+                            text-align: center;
+                            color: #FFFFFF;
+                            padding-top: 20px;
+                        }
+                    }
+                }
+            }:hover{
+                border-radius: 10px;
+                background-color: rgba(40, 81, 224, 1);
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

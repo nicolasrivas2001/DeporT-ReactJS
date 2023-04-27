@@ -1,0 +1,491 @@
+.contenedor-info-futbol{
+    background-image:url(../../assets/futbolA.png);
+    background-repeat:no-repeat;
+    background-position-x: -12%;
+    background-position-y: 50%;
+    margin-bottom: 90px;
+    padding-top: 100px;
+    .ruta{
+        margin: 30px 20px 20px 120px;
+        font-size: 22px;
+        span{
+            color: rgba(168, 6, 6, 1);
+        }
+    }
+    .info-futbol{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 70px 0px 70px;
+        margin-right: 40px;
+        .titulo{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: end;
+            width: 100%;
+            h3{
+                position: relative;
+                font-size: 30px;
+                display: inline;
+                span{
+                    color: rgba(168, 6, 6, 1);
+                }
+            }
+            p{
+                display: inline;
+            }
+            .parrafo-principal{
+                position: relative;
+                font-size: 22px;
+                margin-top: 20px;
+            }
+            .partidos-disponibles{
+                color: rgba(1, 19, 84, 1);
+                margin-top: 40px;
+            }
+            .contenedor-fecha{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                .fecha{
+                    display: flex;
+                    justify-content: center;
+                    background: rgba(1, 19, 84, 1);
+                    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.33);
+                    border-radius: 10px;
+                    color: white;
+                    width: 20%;
+                    height: 50px;
+                    padding: 10px;
+                    margin: 10px 0px 60px 0px;
+                }
+            }
+        }
+        .contenedor-partidos{
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            .partidos{
+            overflow-y: scroll;
+            height: 800px;
+            background-color: rgba(1, 19, 84, 0.75);
+            box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+            padding: 50px;
+            width: 900px;
+            .partidos-liga{
+                display: flex;
+                flex-direction: column;
+                .contenedor-liga{
+                    width: 35%;
+                    background-color: rgba(245, 241, 241, 1);
+                    margin-bottom: 20px;
+                    border-radius: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding-top: 10px;
+                    .liga{
+                        font-size: 20px;
+                        color: rgba(0, 0, 0, 1);
+                        text-align: center;
+                    }
+                }
+                .separador-ligas{
+                    border: 8px solid rgba(245, 241, 241, 0.5);
+                    border-radius: 10px;
+                    margin-bottom: 40px;
+                }
+                .partido{
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 40px;
+                    .teams{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        background-color: rgba(245, 241, 241, 1);
+                        border-radius: 20px;
+                        max-height: 170px;
+                        .team{
+                            width: 40%;
+                            display: flex;
+                            justify-content: space-around;
+                            padding: 20px;
+                            img{
+                                max-width: 200px;
+                                min-width: 100px;
+                            }
+                            div{
+                                display: flex;
+                                justify-content: center;
+                                flex-direction: column;
+                                text-align: center;
+                                .name{
+                                    font-size: 19px;
+                                    margin: 0px;
+                                }
+                                .goals{
+                                    font-size: 54px;
+                                }
+                            }
+                        }
+                        .contenedor-time{
+                            display: flex;
+                            justify-content: center;
+                            flex-direction: column;
+                            height: 100%;
+                            .time{
+                                background-color: rgba(1, 19, 84, 1);
+                                width: 158px;
+                                height: 66px;
+                                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                                border-radius: 0px 0px 10px 10px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;                         
+                                p{
+                                    color: white;
+                                    margin: 0px;
+                                }
+                                .in-game{
+                                    color: rgb(38, 189, 38);
+                                    margin: 0px;
+                                }
+                                .entretiempo{
+                                    color: rgb(25, 128, 25);
+                                    margin: 0px;
+                                }
+                            }
+                            .contenedor-separador{
+                                display: flex;
+                                justify-content: center;
+                                align-items: flex-end ;
+                                height: 100%;
+                                .separador{
+                                    background-color: #011354;
+                                    width: 7px;
+                                    height: 95px;
+                                    border-top-right-radius: 10px;
+                                    border-top-left-radius: 10px;
+                                    position: relative;
+                                    bottom: -10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            div{
+                display: flex;
+                justify-content: flex-end;
+                a{
+                    text-decoration: none;
+                    .boton-twitch{
+                        width: 350px;
+                        display: flex;
+                        justify-content: space-around;
+                        margin: 20px;
+                        border-radius: 10px;
+                        .contenedor-logo-twitch{
+                            width: 30%;
+                            display: flex;
+                            justify-content: center;
+                            position: relative;
+                            left: 30px;
+                        }
+                        .contenedor-p-twitch{
+                            display: flex;
+                            justify-content: center;
+                            p{
+                                font-size: 18px;
+                                margin: 0px;
+                            }
+                        }
+                        
+                    }:hover{
+                        border-radius: 10px;
+                        background-color: rgba(214, 10, 10, 1);
+                    }
+                }
+            }
+            
+        }
+        }
+        .partidos::-webkit-scrollbar {
+            margin-top: 10px;
+            width: 21px;
+            color: rgba(214, 10, 10, 1);
+          }
+          
+          .partidos::-webkit-scrollbar-track {
+            background: rgba(217, 217, 217, 0.45);
+            margin-top: 30px;
+            border-radius: 20px;       
+            padding: 10px;
+          }
+          
+          .partidos::-webkit-scrollbar-thumb {
+            background-color: rgba(214, 10, 10, 1);
+            border-radius: 20px;      
+            padding: 10px;
+            }
+    }
+}
+
+.contenedor-no-partidos{
+    .no-partidos{
+        width: 100%;
+        background: #F5F1F1;
+        color: rgba(1, 19, 84, 1);
+        border-radius: 10px;
+        font-size: 25px;
+        padding: 70px;
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+        p{
+            margin-left: 30px;
+            margin-bottom: 20px;
+            span{
+                color: rgba(168, 6, 6, 1);
+            }
+        }
+    }
+}
+
+.contenedor-info-basquet{
+    background-image:url(../../assets/basquetA.png);
+    background-repeat:no-repeat;
+    background-position-x: 4%;
+    background-position-y: 50%;
+    margin-bottom: 90px;
+    padding-top: 100px;
+    .ruta{
+        margin: 30px 20px 20px 120px;
+        font-size: 22px;
+        span{
+            color: rgba(168, 6, 6, 1);
+        }
+    }
+    .info-futbol{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 70px 0px 70px;
+        margin-right: 40px;
+        .titulo{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: end;
+            width: 100%;
+            h3{
+                position: relative;
+                font-size: 30px;
+                display: inline;
+                span{
+                    color: rgba(168, 6, 6, 1);
+                }
+            }
+            p{
+                display: inline;
+            }
+            .parrafo-principal{
+                position: relative;
+                font-size: 22px;
+                margin-top: 20px;
+            }
+            div{
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+                .partidos-disponibles{
+                    width: 20%;
+                    color: rgba(1, 19, 84, 1);
+                    margin-top: 40px;
+                }
+            }
+            .contenedor-fecha{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                .fecha{
+                    display: flex;
+                    justify-content: center;
+                    background: rgba(1, 19, 84, 1);
+                    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.33);
+                    border-radius: 10px;
+                    color: white;
+                    width: 20%;
+                    height: 50px;
+                    padding: 10px;
+                    margin: 10px 0px 60px 0px;
+                }
+            }
+        }
+        .contenedor-partidos{
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            .partidos{
+            width: 900px;
+            overflow-y: scroll;
+            height: 800px;
+            background-color: rgba(1, 19, 84, 0.75);
+            box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+            padding: 50px;
+            .contenedor-liga{
+                width: 35%;
+                background-color: rgba(245, 241, 241, 1);
+                margin-bottom: 20px;
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-top: 10px;
+                .liga{
+                    font-size: 20px;
+                    color: rgba(0, 0, 0, 1);
+                    text-align: center;
+                }
+            }
+            .partido{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 40px;
+                .teams{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    background-color: rgba(245, 241, 241, 1);
+                    border-radius: 20px;
+                    max-height: 170px;
+                    .team{
+                        width: 40%;
+                        display: flex;
+                        justify-content: space-around;
+                        padding: 20px;
+                        img{
+                            max-width: 200px;
+                            min-width: 100px;
+                        }
+                        div{
+                            display: flex;
+                            justify-content: center;
+                            flex-direction: column;
+                            text-align: center;
+                            .name{
+                                font-size: 19px;
+                                margin: 0px;
+                            }
+                            .goals{
+                                font-size: 54px;
+                            }
+                        }
+                    }
+                    .contenedor-time{
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        height: 100%;
+                        .time{
+                            background-color: rgba(1, 19, 84, 1);
+                            width: 158px;
+                            height: 66px;
+                            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                            border-radius: 0px 0px 10px 10px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;                         
+                            p{
+                                color: white;
+                            }
+                            .finished{
+                                color: rgb(149, 19, 19);
+                            }
+                            .soon{
+                                color: white;
+                            }
+                            .in-game{
+                                color: rgb(38, 189, 38);
+                            }
+                        }
+                        .contenedor-separador{
+                            display: flex;
+                            justify-content: center;
+                            align-items: flex-end ;
+                            height: 100%;
+                            .separador{
+                                background-color: #011354;
+                                width: 7px;
+                                height: 95px;
+                                border-top-right-radius: 10px;
+                                border-top-left-radius: 10px;
+                                position: relative;
+                                bottom: -10px;
+                            }
+                        }
+                    }
+                }
+            }
+            div{
+                display: flex;
+                justify-content: flex-end;
+                a{
+                    text-decoration: none;
+                    .boton-twitch{
+                        width: 350px;
+                        display: flex;
+                        justify-content: space-around;
+                        margin: 20px;
+                        border-radius: 10px;
+                        .contenedor-logo-twitch{
+                            width: 30%;
+                            display: flex;
+                            justify-content: center;
+                            position: relative;
+                            left: 30px;
+                        }
+                        .contenedor-p-twitch{
+                            display: flex;
+                            justify-content: center;
+                            p{
+                                font-size: 18px;
+                                margin: 0px;
+                            }
+                        }
+                        
+                    }:hover{
+                        border-radius: 10px;
+                        background-color: rgba(214, 10, 10, 1);
+                    }
+                }
+            }
+            
+        }
+        }
+        .partidos::-webkit-scrollbar {
+            margin-top: 10px;
+            width: 21px;
+            color: rgba(214, 10, 10, 1);
+          }
+          
+          .partidos::-webkit-scrollbar-track {
+            background: rgba(217, 217, 217, 0.45);
+            margin-top: 30px;
+            border-radius: 20px;       
+            padding: 10px;
+          }
+          
+          .partidos::-webkit-scrollbar-thumb {
+            background-color: rgba(214, 10, 10, 1);
+            border-radius: 20px;      
+            padding: 10px;
+            }
+    }
+}

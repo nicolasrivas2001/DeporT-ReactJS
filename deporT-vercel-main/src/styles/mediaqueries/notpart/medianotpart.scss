@@ -1,0 +1,72 @@
+@media screen and (max-width: 1350px) {
+    .contenedor-notpart{
+        .notpart{
+            .noticias-partidos{
+                width: 100%;
+                a{
+                    display:flex;
+                    justify-content:center;
+                    width: 40%;
+                    .noticias{
+                        width:65%;
+                        height:300px;
+                        margin-right: 40px;
+                        .img-jf-noticias{
+                            width: 100%;
+                            position: relative;
+                            left: 50%;
+                            bottom: 25%;
+                        }
+                        .img-jb-noticias{
+                            bottom: 15%;
+                        }
+                    }
+                    .partidos{
+                        width:65%;
+                        height:300px;
+                        margin-left: 40px;
+                        .img-jf-partidos{
+                            width: 80%;
+                            position: relative;
+                            left: 65%;
+                            bottom: 20%;
+                        }
+                        .img-jb-partidos{
+                            bottom: 15%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .contenedor-notpart{
+        .notpart{
+            .noticias-partidos{
+                a{
+                    .noticias{
+                        .img-jf-noticias{
+                            width: 100%;
+                            position: relative;
+                            left: 55%;
+                            bottom: 20%;
+                        }
+                        .img-jb-noticias{
+                            left: 40%;
+                        }
+                    }
+                    .partidos{
+                        width:65%;
+                        height:300px;
+                        margin-left: 40px;
+                        .img-jb-partidos{
+                            left: 80%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

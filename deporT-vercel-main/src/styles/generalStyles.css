@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+}
+
+.header-54 {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 165.6%;
+}
+
+.title-30 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 165.6%;
+}
+
+.title-22 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 185.6%;
+}
+
+.text-22 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 185.6%;
+}
+
+.text-19 {
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 22px;
+}
+
+.button-15 {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 165.6%;
+}
+
+.primary-color {
+  color: #042494;
+}
+
+.secondary-color {
+  color: #2851E0;
+}
+
+.acent-color {
+  color: #E03E12;
+}
+
+.button-disabled {
+  color: #A80606;
+}
+
+.cards-color {
+  color: #E03E12;
+}
+
+.white-color {
+  color: #D9D9D9;
+}
+
+.black-color {
+  color: #0A0202;
+}
+
+.d-flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.d-flex-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.d-flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=generalStyles.css.map */
